@@ -188,7 +188,7 @@ public:
 /*
 Wesley Curtis
 main method:
-reads in "employees.txt" to structs
+reads in "employees.txt" to structs, prints
 */
 int main(){
     EmployeeList EmpList;
