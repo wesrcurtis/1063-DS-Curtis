@@ -94,7 +94,7 @@ public:
 		delete[] del1;
 		beenModified=true;
 	}
-
+    //Wesley Curtis
 	// reduces the stack to a smaller size by moving the values to a temporary array then back to the stack once it is modified.
 	void Reduce(){
 		int oldSize=int(size*.5);
@@ -131,8 +131,8 @@ int main(){
 	// opens i/o files
 	ifstream fin;
 	ofstream fout;
-	fin.open("input.txt");
-	fout.open("stack_out.dat.txt");
+	fin.open("input_data.txt");
+	fout.open("stack_out.dat");
 
 	Stack S;
 	char plusOrMinus;
@@ -153,7 +153,7 @@ int main(){
 			S.Pop();
 		}
 	}
-
+    //Wesley Curtis
 	// outputs all information
 	fout<<"\tWesley Curtis\n\tHomework 2\n\tOctober 8, 2019\n\n";
 	fout<<"Size: \t\t\t"<<S.GetSize()<<"\n";
