@@ -1,0 +1,10 @@
+	Wesley Curtis
+	Homework 2
+	October 8, 2019
+
+Size: 			10
+Largest Size:	27
+
+Remaining Items in the Stack:
+	17, 49, 56, 98, 17, 23, 
+
